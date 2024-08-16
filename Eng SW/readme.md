@@ -2,8 +2,8 @@
     R: Os pontos que irão definir um engenheiro de software e a forma que este será cobrado durante seu trabalho, são tempo, escalabilidade e negociações do produto. A visão que um engenheiro de software deve ter é global sobre seu produto, imaginando ele como um todo, para que possa ter noção de prazos, imprevistos e tamanho que este irá tomar. Esta visão é necessária, pois é preciso pensar muito bem antes de começar a efetivamente escrevero código, para evitar mudanças do projeto.
 
 2. Citar 3 exemplos de trade-off.<br>
-   R: 1. Em um projeto que necessita de refatoração, seguir a opção de criar um novo projeto em uma outra linguagem mais conhecida e rotear o usuário corretamente entre esses dois sistemas, de acordo com as APIs acessadas. Assim, temos uma maior complexidade de arquitetura, mas conseguimos avançar mais rapidamente e facilmente na refatoração.<br>
-      2. A<br>
+   R: 1. Em um projeto que necessita de refatoração, seguir a opção de criar um novo projeto em uma outra linguagem mais conhecida e rotear o usuário corretamente entre esses dois sistemas, de acordo com as APIs acessadas. Assim, temos uma maior complexidade de arquitetura, mas conseguimos avançar mais rapidamente e facilmente na refatoração, além de melhor manutenção em longo prazo.<br>
+      2. Escolha entre: criação de um aplicativo nativo e um site web; ou a criação de um site web com uso de WebApp. O aplicativo nativo pode ser mais performático, possuir mais funcionalidades e coleta de dados que o site web, mas exige que a empresa mantenha dois funcionários, um para o aplicativo e um para o site web, além de uma arquitetura maior e também atualização e criação de features em ambos aplicativos, enquanto o site web com WebView unifica todas as features em um só local.<br>
       3. A<br>
 
 3. A
