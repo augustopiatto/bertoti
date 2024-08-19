@@ -6,4 +6,40 @@
       2. Escolha entre: criação de um aplicativo nativo e um site web; ou a criação de um site web com uso de WebApp. O aplicativo nativo pode ser mais performático, possuir mais funcionalidades e coleta de dados que o site web, mas exige que a empresa mantenha dois funcionários, um para o aplicativo e um para o site web, além de uma arquitetura maior e também atualização e criação de features em ambos aplicativos, enquanto o site web com WebView unifica todas as features em um só local.<br>
       3. Escolha entre uma linguagem tipada e uma não tipada para o desenvolvimento do projeto. Enquanto a linguagem tipada oferece claros benefícios de prevenção à erros, a não tipada oferece uma maior velocidade de produção, e possibilita que os desenvolvedores tenham nível de conhecimento menor (apesar disto ocasionar em maior possibilidade de erros)<br>
 
-3. A
+3. Repetir as classes SalaAula e Aula com um exemplo seu. Com testes automatizados<br>
+    R:
+// import das classes utilitárias
+import java.util.List;
+import java.util.LinkedList;
+
+// definição da classe da sala
+public class SalaAula {
+    // atributo da classe
+	private List<Aluno> alunos = new LinkedList<Aluno>();
+    // métodos para acessar o atributo da classe por fora da classe
+	public void cadastrarAluno(Aluno aluno) {
+		this.alunos.add(aluno);
+	}
+	public List<Aluno> getAlunos() {
+		return this.alunos;
+	}
+}
+
+// definição da classe do aluno
+public class Aluno {
+    // atributos da classe
+	private String nome;
+	private String ra;
+	// construtor da classe
+	public Aluno(String nome, String ra) {
+		this.nome = nome;
+		this.ra = ra;
+	}
+	// métodos para acessar o atributo da classe por fora da classe
+	public String getNome() {
+		return this.nome;
+	}
+	public String getRa() {
+		return this.ra;
+	}
+}
