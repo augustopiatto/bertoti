@@ -6,40 +6,56 @@
       2. Escolha entre: criação de um aplicativo nativo e um site web; ou a criação de um site web com uso de WebApp. O aplicativo nativo pode ser mais performático, possuir mais funcionalidades e coleta de dados que o site web, mas exige que a empresa mantenha dois funcionários, um para o aplicativo e um para o site web, além de uma arquitetura maior e também atualização e criação de features em ambos aplicativos, enquanto o site web com WebView unifica todas as features em um só local.<br>
       3. Escolha entre uma linguagem tipada e uma não tipada para o desenvolvimento do projeto. Enquanto a linguagem tipada oferece claros benefícios de prevenção à erros, a não tipada oferece uma maior velocidade de produção, e possibilita que os desenvolvedores tenham nível de conhecimento menor (apesar disto ocasionar em maior possibilidade de erros)<br>
 
-3. Repetir as classes SalaAula e Aula com um exemplo seu. Com testes automatizados<br>
+3. Repetir as classes SalaAula e Aula com um exemplo seu. Com testes automatizados.<br>
     R:
 // import das classes utilitárias
-import java.util.List;
-import java.util.LinkedList;
+import java.util.List;<br>
+import java.util.LinkedList;<br><br>
 
-// definição da classe da sala
-public class SalaAula {
-    // atributo da classe
-	private List<Aluno> alunos = new LinkedList<Aluno>();
-    // métodos para acessar o atributo da classe por fora da classe
-	public void cadastrarAluno(Aluno aluno) {
-		this.alunos.add(aluno);
-	}
-	public List<Aluno> getAlunos() {
-		return this.alunos;
-	}
-}
+// definição da classe da sala<br>
+public class SalaAula {<br>
+    // atributo da classe<br>
+    private List<Aluno> alunos = new LinkedList<Aluno>();<br>
+    // métodos para acessar o atributo da classe por fora da classe<br>
+    public void cadastrarAluno(Aluno aluno) {<br>
+	this.alunos.add(aluno);<br>
+    }<br>
+    public List<Aluno> getAlunos() {<br>
+	return this.alunos;<br>
+    }<br>
+}<br><br>
 
-// definição da classe do aluno
-public class Aluno {
-    // atributos da classe
-	private String nome;
-	private String ra;
-	// construtor da classe
-	public Aluno(String nome, String ra) {
-		this.nome = nome;
-		this.ra = ra;
-	}
-	// métodos para acessar o atributo da classe por fora da classe
-	public String getNome() {
-		return this.nome;
-	}
-	public String getRa() {
-		return this.ra;
-	}
+// definição da classe do aluno<br>
+public class Aluno {<br>
+    // atributos da classe<br>
+    private String nome;<br>
+    private String ra;<br>
+    // construtor da classe<br>
+    public Aluno(String nome, String ra) {<br>
+	this.nome = nome;<br>
+	this.ra = ra;<br>
+    }<br>
+    // métodos para acessar o atributo da classe por fora da classe<br>
+    public String getNome() {<br>
+	return this.nome;<br>
+    }<br>
+    public String getRa() {<br>
+	return this.ra;<br>
+    }<br>
+}<br><br>
+
+// import das classes utilitárias<br>
+import static org.junit.jupiter.api.Assertions.*;<br>
+import org.junit.jupiter.api.Test;<br>
+// definição da classe teste<br>
+class AlunoTeste {<br>
+    @Test<br>
+    void test() {<br>
+	SalaAula fatec = new SalaAula();<br>
+	Aluno joao = new Aluno("Joao", "12345");<br>
+	Aluno jose = new Aluno("Jose", "54321");<br>
+	fatec.cadastrarAluno(joao);<br>
+	fatec.cadastrarAluno(jose);<br>
+	assertEquals(fatec.getAlunos().size(), 2);<br>
+    }<br>
 }
