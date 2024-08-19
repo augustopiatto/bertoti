@@ -8,6 +8,7 @@
 
 3. Repetir as classes SalaAula e Aula com um exemplo seu. Com testes automatizados.<br>
     R:
+```
 // import das classes utilitárias
 import java.util.List;<br>
 import java.util.LinkedList;<br><br>
@@ -23,8 +24,10 @@ public class SalaAula {<br>
     public List<Aluno> getAlunos() {<br>
 	return this.alunos;<br>
     }<br>
-}<br><br>
+}
+```
 
+```
 // definição da classe do aluno<br>
 public class Aluno {<br>
     // atributos da classe<br>
@@ -42,8 +45,10 @@ public class Aluno {<br>
     public String getRa() {<br>
 	return this.ra;<br>
     }<br>
-}<br><br>
+}
+```
 
+```
 // import das classes utilitárias<br>
 import static org.junit.jupiter.api.Assertions.*;<br>
 import org.junit.jupiter.api.Test;<br>
@@ -76,7 +81,7 @@ class AlunoTeste {<br>
  	// verifica se o primeiro aluno é o primeiro aluno cadastrado
 	assertEquals(todosAlunos.get(0).getRa(), augustoJose.getRa());<br>
     }<br><br>
-	
+
     @Test<br>
     void testAlunosSaoDiferentes() {<br>
 	SalaAula sala2BD = new SalaAula();<br>
@@ -89,3 +94,4 @@ class AlunoTeste {<br>
 	assertNotEquals(todosAlunos.get(0).getNome(), todosAlunos.get(1).getNome());<br>
     }<br>
 }
+```
