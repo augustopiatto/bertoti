@@ -61,7 +61,7 @@ import org.junit.jupiter.api.Test;
 // definição da classe teste
 class AlunoTeste {
     // decorator do teste
-    @Test<br>
+    @Test
     void testCadastrarDoisAlunos() {
         // instancia uma sala
 	SalaAula sala2BD = new SalaAula();
