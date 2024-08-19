@@ -49,13 +49,43 @@ import static org.junit.jupiter.api.Assertions.*;<br>
 import org.junit.jupiter.api.Test;<br>
 // definição da classe teste<br>
 class AlunoTeste {<br>
+    // decorator do teste
     @Test<br>
-    void test() {<br>
-	SalaAula fatec = new SalaAula();<br>
+    void testCadastrarDoisAlunos() {<br>
+        // instancia uma sala
+	SalaAula sala2BD = new SalaAula();<br>
+        // instancia alunos
 	Aluno joao = new Aluno("Joao", "12345");<br>
 	Aluno jose = new Aluno("Jose", "54321");<br>
-	fatec.cadastrarAluno(joao);<br>
-	fatec.cadastrarAluno(jose);<br>
-	assertEquals(fatec.getAlunos().size(), 2);<br>
+ 	// cadastra os alunos na sala
+	sala2BD.cadastrarAluno(joao);<br>
+	sala2BD.cadastrarAluno(jose);<br>
+ 	// verificase a sala tem os dois alunos cadastrados
+	assertEquals(sala2BD.getAlunos().size(), 2);<br>
+    }<br><br>
+
+    @Test<br>
+    void testTrazPrimeiroAlunoDaLista() {<br>
+	SalaAula sala2BD = new SalaAula();<br>
+	Aluno augustoJose = new Aluno("Augusto Jose", "123");<br>
+	Aluno joseAugusto = new Aluno("Jose Augusto", "321");<br>
+	sala2BD.cadastrarAluno(augustoJose);<br>
+	sala2BD.cadastrarAluno(joseAugusto);<br>
+ 	// associa todos alunos da sala em uma variável
+	List<Aluno> todosAlunos = sala2BD.getAlunos();<br>
+ 	// verifica se o primeiro aluno é o primeiro aluno cadastrado
+	assertEquals(todosAlunos.get(0).getRa(), augustoJose.getRa());<br>
+    }<br><br>
+	
+    @Test<br>
+    void testAlunosSaoDiferentes() {<br>
+	SalaAula sala2BD = new SalaAula();<br>
+	Aluno augustoJose = new Aluno("Augusto Jose", "123");<br>
+	Aluno joseAugusto = new Aluno("Jose Augusto", "321");<br>
+	sala2BD.cadastrarAluno(augustoJose);<br>
+	sala2BD.cadastrarAluno(joseAugusto);<br>
+	List<Aluno> todosAlunos = sala2BD.getAlunos();<br>
+ 	// verifica se os dois alunos são diferentes
+	assertNotEquals(todosAlunos.get(0).getNome(), todosAlunos.get(1).getNome());<br>
     }<br>
 }
