@@ -10,88 +10,99 @@
     R:
 ```
 // import das classes utilitárias
-import java.util.List;<br>
-import java.util.LinkedList;<br><br>
+import java.util.List;
+import java.util.LinkedList;
 
-// definição da classe da sala<br>
-public class SalaAula {<br>
-    // atributo da classe<br>
-    private List<Aluno> alunos = new LinkedList<Aluno>();<br>
-    // métodos para acessar o atributo da classe por fora da classe<br>
-    public void cadastrarAluno(Aluno aluno) {<br>
-	this.alunos.add(aluno);<br>
-    }<br>
-    public List<Aluno> getAlunos() {<br>
-	return this.alunos;<br>
-    }<br>
+// definição da classe da sala
+public class SalaAula {
+    // atributo da classe
+    private List<Aluno> alunos = new LinkedList<Aluno>();
+
+    // métodos para acessar o atributo da classe por fora da classe
+    public void cadastrarAluno(Aluno aluno) {
+	this.alunos.add(aluno);
+    }
+
+    public List<Aluno> getAlunos() {
+	return this.alunos;
+    }
 }
 ```
 
 ```
-// definição da classe do aluno<br>
-public class Aluno {<br>
-    // atributos da classe<br>
-    private String nome;<br>
-    private String ra;<br>
-    // construtor da classe<br>
-    public Aluno(String nome, String ra) {<br>
-	this.nome = nome;<br>
-	this.ra = ra;<br>
-    }<br>
-    // métodos para acessar o atributo da classe por fora da classe<br>
-    public String getNome() {<br>
-	return this.nome;<br>
-    }<br>
-    public String getRa() {<br>
-	return this.ra;<br>
-    }<br>
+// definição da classe do aluno
+public class Aluno {
+    // atributos da classe
+    private String nome;
+    private String ra;
+
+    // construtor da classe
+    public Aluno(String nome, String ra) {
+	this.nome = nome;
+	this.ra = ra;
+    }
+
+    // métodos para acessar o atributo da classe por fora da classe
+    public String getNome() {
+	return this.nome;
+    }
+
+    public String getRa() {
+	return this.ra;
+    }
 }
 ```
 
 ```
-// import das classes utilitárias<br>
-import static org.junit.jupiter.api.Assertions.*;<br>
-import org.junit.jupiter.api.Test;<br>
-// definição da classe teste<br>
-class AlunoTeste {<br>
+// import das classes utilitárias
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+// definição da classe teste
+class AlunoTeste {
     // decorator do teste
     @Test<br>
-    void testCadastrarDoisAlunos() {<br>
+    void testCadastrarDoisAlunos() {
         // instancia uma sala
-	SalaAula sala2BD = new SalaAula();<br>
+	SalaAula sala2BD = new SalaAula();
+
         // instancia alunos
-	Aluno joao = new Aluno("Joao", "12345");<br>
-	Aluno jose = new Aluno("Jose", "54321");<br>
+	Aluno joao = new Aluno("Joao", "12345");
+	Aluno jose = new Aluno("Jose", "54321");
+
  	// cadastra os alunos na sala
-	sala2BD.cadastrarAluno(joao);<br>
-	sala2BD.cadastrarAluno(jose);<br>
+	sala2BD.cadastrarAluno(joao);
+	sala2BD.cadastrarAluno(jose);
+
  	// verificase a sala tem os dois alunos cadastrados
-	assertEquals(sala2BD.getAlunos().size(), 2);<br>
-    }<br><br>
+	assertEquals(sala2BD.getAlunos().size(), 2);
+    }
 
-    @Test<br>
-    void testTrazPrimeiroAlunoDaLista() {<br>
-	SalaAula sala2BD = new SalaAula();<br>
-	Aluno augustoJose = new Aluno("Augusto Jose", "123");<br>
-	Aluno joseAugusto = new Aluno("Jose Augusto", "321");<br>
-	sala2BD.cadastrarAluno(augustoJose);<br>
-	sala2BD.cadastrarAluno(joseAugusto);<br>
+    @Test
+    void testTrazPrimeiroAlunoDaLista() {
+	SalaAula sala2BD = new SalaAula();
+	Aluno augustoJose = new Aluno("Augusto Jose", "123");
+	Aluno joseAugusto = new Aluno("Jose Augusto", "321");
+	sala2BD.cadastrarAluno(augustoJose);
+	sala2BD.cadastrarAluno(joseAugusto);
+
  	// associa todos alunos da sala em uma variável
-	List<Aluno> todosAlunos = sala2BD.getAlunos();<br>
- 	// verifica se o primeiro aluno é o primeiro aluno cadastrado
-	assertEquals(todosAlunos.get(0).getRa(), augustoJose.getRa());<br>
-    }<br><br>
+	List<Aluno> todosAlunos = sala2BD.getAlunos();
 
-    @Test<br>
-    void testAlunosSaoDiferentes() {<br>
-	SalaAula sala2BD = new SalaAula();<br>
-	Aluno augustoJose = new Aluno("Augusto Jose", "123");<br>
-	Aluno joseAugusto = new Aluno("Jose Augusto", "321");<br>
-	sala2BD.cadastrarAluno(augustoJose);<br>
-	sala2BD.cadastrarAluno(joseAugusto);<br>
-	List<Aluno> todosAlunos = sala2BD.getAlunos();<br>
+ 	// verifica se o primeiro aluno é o primeiro aluno cadastrado
+	assertEquals(todosAlunos.get(0).getRa(), augustoJose.getRa());
+    }
+
+    @Test
+    void testAlunosSaoDiferentes() {
+	SalaAula sala2BD = new SalaAula();
+	Aluno augustoJose = new Aluno("Augusto Jose", "123");
+	Aluno joseAugusto = new Aluno("Jose Augusto", "321");
+	sala2BD.cadastrarAluno(augustoJose);
+	sala2BD.cadastrarAluno(joseAugusto);
+	List<Aluno> todosAlunos = sala2BD.getAlunos();
  	// verifica se os dois alunos são diferentes
-	assertNotEquals(todosAlunos.get(0).getNome(), todosAlunos.get(1).getNome());<br>
-    }<br>
+	assertNotEquals(todosAlunos.get(0).getNome(), todosAlunos.get(1).getNome());
+    }
 }
 ```
