@@ -111,6 +111,5 @@ class AlunoTeste {
 ```
 
 - <b>Atividade 4<b>. Diagrama de classes UML:</b><br>
-R: Usei o do projeto da API
-![image](https://github.com/user-attachments/assets/2899ef27-3047-4521-bc64-d6b2d0b1a065)
-
+R:<br>
+![image](https://github.com/user-attachments/assets/1e018f89-8111-4d30-a5fa-d284b91d636c)
