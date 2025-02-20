@@ -3,13 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript melhor linguagem</title>
+    <title>Gerenciamento de Bolachas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="container">
-        <button id="button">Buscar café</button>
+        <div id="buttons">
+            <button id="list-button">Listagem</button>
+            <button id="create-button">Criação</button>
+            <button id="edit-button">Edição</button>
+            <button id="delete-button">Deleção</button>
+        </div>
+
+        <div id="list-tab" class="tab">
+            <h2>Listagem de Bolachas</h2>
+            <div id="list-content"></div>
+        </div>
+
+        <div id="create-tab" class="tab">
+            <h2>Criação de Bolacha</h2>
+            <input type="text" id="create-brand" placeholder="Marca">
+            <input type="text" id="create-flavor" placeholder="Sabor">
+            <input type="text" id="create-validity" placeholder="Validade">
+            <button id="create-submit">Criar Bolacha</button>
+        </div>
+
+        <div id="edit-tab" class="tab">
+            <h2>Edição de Bolacha</h2>
+            <select id="edit-select"></select>
+            <input type="text" id="edit-brand" placeholder="Marca">
+            <input type="text" id="edit-flavor" placeholder="Sabor">
+            <input type="text" id="edit-validity" placeholder="Validade">
+            <button id="edit-submit">Confirmar Edição</button>
+        </div>
+
+        <div id="delete-tab" class="tab">
+            <h2>Deleção de Bolacha</h2>
+            <select id="delete-select"></select>
+            <button id="delete-submit">Confirmar Deleção</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+</html>
