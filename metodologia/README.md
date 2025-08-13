@@ -24,13 +24,13 @@ Mudei de área para a programação web em 2020, através do bootcamp oferecido 
 ## Meus Projetos
 
 ### Em 2025-1
-
+Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto desafiador focado na criação de um sistema de pontos que registra as movimentações dos funcionários, com dashboards de gráficos e geração de relatórios. O sistema registra a entrada e saída dos funcionários, bem como a quantidade de horas trabalhadas, e gera gráficos e relatórios com essas informações.
 
 **Empresa Parceira**: Projeto acadêmico desenvolvido no âmbito da FATEC, com parceria com a empresa Altave.
 
-**Problema**: A necessidade de uma ferramenta que automatizasse a coleta contínua de dados de portais de notícias e APIs públicas, criando um histórico robusto para análises futuras.
+**Problema**: A necessidade de uma ferramenta que verificasse atrasos em funcionários de uma empresa terceira contratada, a fim de evitar atrasos e, por consequência, prejuízos para o cliente.
 
-**Solução Entregue pela Equipe**: Desenvolvemos um sistema web que permite o cadastro de portais de notícias, APIs, tags e jornalistas. Implementamos processos de web scraping para coleta automatizada e contínua de dados, armazenando-os de forma estruturada para análises futuras.
+**Solução Entregue pela Equipe**: Desenvolvemos um sistema web que consome as informações de um banco de dados terceiro para exibir dados de entrada e saída dos funcionários. Esta interface possibilita diversos filtros para o usuários, além de oferecer gráficos e extração de relatórios para melhor análise e tomada de decisões.
 
 [Repositório do projeto](https://github.com/SQLutions-FATEC/API-3-Semestre)
 
