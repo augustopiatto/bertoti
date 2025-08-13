@@ -12,9 +12,10 @@ Mudei de área para a programação web em 2020, através do bootcamp oferecido 
   <img src="fotos/foto-perfil.png" alt="Minha Foto" width="200">
 </p>
 
-## Contatos
-* [GIT](https://github.com/augustopiatto)
-* [LinkedIn](https://www.linkedin.com/in/augusto-piatto/)
+<div align = center>
+ <a href="[https://www.linkedin.com/in/dsf21/](https://www.linkedin.com/in/augusto-piatto/)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href="[https://github.com/DaviSFS21](https://github.com/augustopiatto)" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github" target="_blank"></a>
+</div>
 
 ## Meus Principais Conhecimentos
 * Desenvolvimento Web Front-end: Experiência sólida utilizando Vue, com conhecimento em React.
