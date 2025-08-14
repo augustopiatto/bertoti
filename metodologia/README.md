@@ -53,4 +53,6 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 * **CSS**: Domínio avançado em estilização de componentes visuais do projeto.
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+* **Trabalho em equipe**: Atuei com comunicação constante com o resto do time, principalmente com o meu par do back-end, devido ao meu foco no front-end. Em casos de discordância no time, expressei minha opinião e evitei o acúmulo de problemas. Trabalhei na integração das partes desenvolvidas por diferentes membros do time, garantindo que o sistema funcionasse de forma coesa.
+* **Comunicação**: Participei de reuniões semanais com o time, ajudei os membros com maior dificuldade no front-end. Mantive conversa clara com o time, mas principalmente PO e SM sobre o que pretendia fazer em minhas tarefas, de forma a evitar conflito, discordância e retrabalho.
+* **Resolução de problemas**: Atuei no planejamento de estruturação do banco, em fluxos do back-end que apresentavam desafios técnicos e auxiliei na arquitetura geral do front-end, por ter maior conhecimento.
