@@ -43,11 +43,33 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 * **Maven**: Gerenciador de dependências para automatização do build, integração de bibliotecas (Jsoup, Spring Boot) e configuração de perfis de desenvolvimento/produção.
 * **Vue.js**: Framework web utilizado para construir o frontend da aplicação.
 
-#### Contribuições Pessoais
-aa
+### Contribuições Pessoais
+#### Desenvolvimento de Wireframe para as sprints
+Na imagem abaixo, está exibido uma visão geral das telas criadas, que foi utilizado o software Figma para criá-lo e compartilhar entre o cliente e o resto do time.
 
-##### Desenvolvimento front-end utilizando Vue.js
+![wireframe](./fotos/wireframe.png)
+
+A partir do design foram criadas as user-stories que podem ser vistas [aqui no github](https://github.com/SQLutions-FATEC/API-3-Semestre?tab=readme-ov-file#-backlogs--user-stories) do projeto, assim sendo durante todo o desenvolvimento do projeto foi-se utilizado as duas documentações apresentadas para guiar a compreensão do que seria desenvolvido nas sprints.
+
+#### Modelagem inicial do banco de dados
+Juntamente com outros membros do grupo, montamos uma estrutura inicial das tabelas e relacionamentos do banco de dados. A ideia era fazer uma estrutura que nos servisse nos primeiros fluxos mapeados, sem grande visibilidade para o futuro, e montar um dump para esse banco que subia juntamente com o Docker, dessa forma não haveriam tantos conflitos quando precisássemos alterar algum relacionamento, tabela ou construir algo a mais.
+
+![modelagem](./fotos/modelagem.png)
+
+#### Desenvolvimento front-end utilizando Vue.js
 Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
+De modo geral, atuei em todas as telas do projeto, padronizando tanto código como visual e tentando otimizar o fluxo para o usuário final. Participei constantemente de conversas com PO para tirar ideias e melhorias com sugestões do cliente.
+Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end, e realizei CRs constantes. Propus e ponderei a adição de bibliotecas ao projeto, de forma a torná-lo eficiente, rápido e escalável.
+Além disso, defini um padrão de estilos, vide foto, para que o sistema tivesse uma identidade visual.
+
+![design-system](./fotos/design-system.png)
+
+#### Desenvolvimento back-end utilizando SpringBoot
+Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções: paginações, endpoints de listagem, estruturação de dados (DTO), ajustes de queries e padronização de código.
+
+![fix](./fotos/fix.png)
+
+Mais exemplos de atuação no back-end podem ser vistos [aqui](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend/commits/4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58/src?before=4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58+35)
 
 #### Hard Skills
 * **Java e Orientação a Objetos**: Domínio intermediário em desenvolvimento Java, aplicando os princípios SOLID, e arquitetura limpa para criar soluções escaláveis e de fácil manutenção. Experiência no desenvolvimento de aplicações robustas utilizando coleções, streams, lambdas e tratamento de exceções, garantindo código eficiente e legível.
