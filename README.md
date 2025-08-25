@@ -9,7 +9,7 @@ Esse repositório foi criado para organizar os estudos das matérias do professo
 ### [Engenharia de software](./Engenharia%20de%20Software)
 Conteúdo sobre construção de sistemas, arquitetura, java e testes automatizados.
 
-### [Laboratório de banco de dados II](./Laboratório%20de%20Programação%203)
+### [Laboratório de banco de dados III](./Laboratório%20de%20Programação%203)
 Conteúdo sobre springboot, endpoints, rest application e front com htmx.
 
 ### [Metodologia](./Metodologia)

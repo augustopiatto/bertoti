@@ -44,7 +44,10 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 * **Vue.js**: Framework web utilizado para construir o frontend da aplicação.
 
 #### Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
+aa
+
+##### Desenvolvimento front-end utilizando Vue.js
+Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
 
 #### Hard Skills
 * **Java e Orientação a Objetos**: Domínio intermediário em desenvolvimento Java, aplicando os princípios SOLID, e arquitetura limpa para criar soluções escaláveis e de fácil manutenção. Experiência no desenvolvimento de aplicações robustas utilizando coleções, streams, lambdas e tratamento de exceções, garantindo código eficiente e legível.
