@@ -47,14 +47,18 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 #### Desenvolvimento de Wireframe para as sprints
 Na imagem abaixo, está exibido uma visão geral das telas criadas, que foi utilizado o software Figma para criá-lo e compartilhar entre o cliente e o resto do time.
 
-![wireframe](./fotos/wireframe.png)
+<p align="center">
+  <img src="fotos/wireframe.png" alt="Wireframe">
+</p>
 
 A partir do design foram criadas as user-stories que podem ser vistas [aqui no github](https://github.com/SQLutions-FATEC/API-3-Semestre?tab=readme-ov-file#-backlogs--user-stories) do projeto, assim sendo durante todo o desenvolvimento do projeto foi-se utilizado as duas documentações apresentadas para guiar a compreensão do que seria desenvolvido nas sprints.
 
 #### Modelagem inicial do banco de dados
 Juntamente com outros membros do grupo, montamos uma estrutura inicial das tabelas e relacionamentos do banco de dados. A ideia era fazer uma estrutura que nos servisse nos primeiros fluxos mapeados, sem grande visibilidade para o futuro, e montar um dump para esse banco que subia juntamente com o Docker, dessa forma não haveriam tantos conflitos quando precisássemos alterar algum relacionamento, tabela ou construir algo a mais.
 
-![modelagem](./fotos/modelagem.png)
+<p align="center">
+  <img src="fotos/modelagem.png" alt="Modelagem">
+</p>
 
 #### Desenvolvimento front-end utilizando Vue.js
 Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
@@ -62,12 +66,16 @@ De modo geral, atuei em todas as telas do projeto, padronizando tanto código co
 Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end, e realizei CRs constantes. Propus e ponderei a adição de bibliotecas ao projeto, de forma a torná-lo eficiente, rápido e escalável.
 Além disso, defini um padrão de estilos, vide foto, para que o sistema tivesse uma identidade visual.
 
-![design-system](./fotos/design-system.png)
+<p align="center">
+  <img src="fotos/design-system.png" alt="Design-system">
+</p>
 
 #### Desenvolvimento back-end utilizando SpringBoot
 Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções: paginações, endpoints de listagem, estruturação de dados (DTO), ajustes de queries e padronização de código.
 
-![fix](./fotos/fix.png)
+<p align="center">
+  <img src="fotos/fix.png" alt="Fix">
+</p>
 
 Mais exemplos de atuação no back-end podem ser vistos [aqui](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend/commits/4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58/src?before=4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58+35)
 
@@ -79,5 +87,5 @@ Mais exemplos de atuação no back-end podem ser vistos [aqui](https://github.co
 
 #### Soft Skills
 * **Trabalho em equipe**: Atuei com comunicação constante com o resto do time, principalmente com o meu par do back-end, devido ao meu foco no front-end. Em casos de discordância no time, expressei minha opinião e evitei o acúmulo de problemas. Trabalhei na integração das partes desenvolvidas por diferentes membros do time, garantindo que o sistema funcionasse de forma coesa.
-* **Comunicação**: Participei de reuniões semanais com o time, ajudei os membros com maior dificuldade no front-end. Mantive conversa clara com o time, mas principalmente PO e SM sobre o que pretendia fazer em minhas tarefas, de forma a evitar conflito, discordância e retrabalho.
-* **Resolução de problemas**: Atuei no planejamento de estruturação do banco, em fluxos do back-end que apresentavam desafios técnicos e auxiliei na arquitetura geral do front-end, por ter maior conhecimento.
+* **Comunicação**: Participei ativamente de reuniões semanais com o time, garantindo alinhamento entre as entregas e as expectativas do cliente. Mantive uma comunicação clara e objetiva com o PO e o SM, detalhando minhas abordagens para as tarefas e antecipando possíveis desafios. Além disso, ofereci suporte aos membros com maior dificuldade no front-end, promovendo um ambiente colaborativo e reduzindo retrabalho por meio de alinhamentos frequentes.
+* **Resolução de problemas**: Contribuí para o planejamento e estruturação inicial do banco de dados, propondo soluções práticas para desafios técnicos no back-end e garantindo a integração fluida com o front-end. No front-end, atuei na arquitetura geral, otimizando fluxos críticos e implementando melhorias que tornaram o sistema mais eficiente e escalável. Minha abordagem proativa ajudou a resolver gargalos técnicos e a manter o progresso do projeto dentro dos prazos estabelecidos.
