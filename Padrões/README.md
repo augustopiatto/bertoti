@@ -65,8 +65,8 @@ O padrão Strategy define uma família de algoritmos, encapsula cada um deles e 
 
 ### UML
 #### Strategy
-![Strategy UML](./strategy/pattern_uml.png)
+![Strategy UML](./strategy/pattern/pattern_uml.png)
 
 #### Anti-pattern
-![Strategy Anti-pattern UML](./strategy/pattern_uml.png)
+![Strategy Anti-pattern UML](./strategy/antipattern/anti_pattern_uml.png)
 ---
