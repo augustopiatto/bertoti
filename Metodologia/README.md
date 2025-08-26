@@ -63,15 +63,37 @@ Juntamente com outros membros do grupo, montamos uma estrutura inicial das tabel
 #### Desenvolvimento front-end utilizando Vue.js
 Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
 De modo geral, atuei em todas as telas do projeto, padronizando tanto código como visual e tentando otimizar o fluxo para o usuário final. Participei constantemente de conversas com PO para tirar ideias e melhorias com sugestões do cliente.
-Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end, e realizei CRs constantes. Propus e ponderei a adição de bibliotecas ao projeto, de forma a torná-lo eficiente, rápido e escalável.
-Além disso, defini um padrão de estilos, vide foto, para que o sistema tivesse uma identidade visual.
+Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end e realizei CRs constantes.
+Foram pontos de atuação:
 
-<p align="center">
-  <img src="fotos/design-system.png" alt="Design-system">
-</p>
+<details>
+  <summary>Definição de bibliotecas ao projeto, de forma a torná-lo eficiente, rápido e escalável</summary>
+  <p align="center">
+    <img src="fotos/bibliotecas.png" alt="Bibliotecas">
+  </p>
+</details>
+<details>
+  <summary>Definição de padrão de estilos para identidade visual</summary>
+  <p align="center">
+    <img src="fotos/design-system.png" alt="Design-system">
+  </p>
+</details>
+<details>
+  <summary>Dashboard</summary>
+  <p align="center">
+    <img src="fotos/dashboard.png" alt="Dashboard">
+  </p>
+</details>
+<details>
+  <summary>CRUD</summary>
+  <p align="center">
+    <img src="fotos/crud.png" alt="Crud">
+  </p>
+</details>
 
 #### Desenvolvimento back-end utilizando SpringBoot
 Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções:
+
 <details>
   <summary>Paginações</summary>
   <p align="center">
@@ -103,8 +125,6 @@ Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs 
     <img src="fotos/padronizacao.png" alt="Padronizacao">
   </p>
 </details>
-
-Mais exemplos de atuação no back-end podem ser vistos [aqui](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend/commits/4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58/src?before=4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58+35)
 
 #### Hard Skills
 * **Java e Orientação a Objetos**: Domínio intermediário em desenvolvimento Java, aplicando os princípios SOLID, e arquitetura limpa para criar soluções escaláveis e de fácil manutenção. Experiência no desenvolvimento de aplicações robustas utilizando coleções, streams, lambdas e tratamento de exceções, garantindo código eficiente e legível.
