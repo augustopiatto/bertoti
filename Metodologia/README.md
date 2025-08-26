@@ -71,11 +71,38 @@ Além disso, defini um padrão de estilos, vide foto, para que o sistema tivesse
 </p>
 
 #### Desenvolvimento back-end utilizando SpringBoot
-Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções: paginações, endpoints de listagem, estruturação de dados (DTO), ajustes de queries e padronização de código.
+Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções:
+<details>
+  <summary>Paginações</summary>
+  <p align="center">
+    <img src="fotos/paginacao.png" alt="Paginacao">
+  </p>
+</details>
+<details>
+  <summary>Endpoints de listagem</summary>
+  <p align="center">
+    <img src="fotos/listagem.png" alt="Listagem">
+  </p>
+</details>
+<details>
+  <summary>Estruturação de dados (DTO)</summary>
+  <p align="center">
+    <img src="fotos/dto.png" alt="Dto">
+  </p>
+</details>
+<details>
+  <summary>Ajustes de queries</summary>
+  <p align="center">
+    <img src="fotos/query.png" alt="Query">
+  </p>
+</details>
 
-<p align="center">
-  <img src="fotos/fix.png" alt="Fix">
-</p>
+<details>
+  <summary>Padronização de código</summary>
+  <p align="center">
+    <img src="fotos/padronizacao.png" alt="Padronizacao">
+  </p>
+</details>
 
 Mais exemplos de atuação no back-end podem ser vistos [aqui](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend/commits/4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58/src?before=4bff7df71aece6a1be8cc0c5bfe7718d8fd9af58+35)
 
