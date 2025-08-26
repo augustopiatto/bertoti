@@ -29,10 +29,10 @@ O padrão Observer define uma dependência um-para-muitos entre objetos, de form
 
 ### UML
 #### Observer
-![Observer UML](./observer/pattern.png)
+![Observer UML](./observer/pattern/pattern_uml.png)
 
 #### Anti-pattern
-![Observer Anti-pattern UML](./observer/anti-pattern.png)
+![Observer Anti-pattern UML](./observer/antipattern/anti_pattern_uml.png)
 
 ---
 
