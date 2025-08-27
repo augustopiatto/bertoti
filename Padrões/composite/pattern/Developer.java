@@ -1,8 +1,10 @@
 package composite.pattern;
 
-class Developer extends Employee {
+class Developer implements Employee {
+    private String name;
+    
     public Developer(String name) {
-        super(name);
+        this.name = name;
     }
 
     @Override

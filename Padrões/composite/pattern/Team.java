@@ -3,11 +3,13 @@ package composite.pattern;
 import java.util.ArrayList;
 import java.util.List;
 
-class Team extends Employee {
+class Team implements Employee {
+    private String name;
+
     private List<Employee> employees = new ArrayList<>();
 
     public Team(String name) {
-        super(name);
+        this.name = name;
     }
 
     public void addEmployee(Employee employee) {

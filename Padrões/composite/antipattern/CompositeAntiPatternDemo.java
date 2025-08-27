@@ -1,6 +1,6 @@
 package composite.antipattern;
 
-public class CompositeAntiPattern {
+public class CompositeAntiPatternDemo {
     public static void main(String[] args) {
         Developer dev1 = new Developer("Alice");
         Developer dev2 = new Developer("Bob");
