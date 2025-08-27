@@ -47,10 +47,10 @@ O padrão Composite permite que objetos sejam organizados em estruturas de árvo
 
 ### UML
 #### Composite
-![Composite UML](./composity/pattern.png)
+![Composite UML](./composite/pattern/pattern_uml.png)
 
 #### Anti-pattern
-![Composite Anti-pattern UML](./composity/anti-pattern.png)
+![Composite Anti-pattern UML](./composite/antipattern/anti_pattern_uml.png)
 
 ---
 
