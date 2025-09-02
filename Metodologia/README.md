@@ -46,53 +46,70 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 ### Contribuições Pessoais
 <details>
   <summary>Desenvolvimento de Wireframe para as sprints</summary>
+  <br />
   Na imagem abaixo é exibida uma visão geral das telas criadas, que foi utilizado o software Figma para criá-lo e compartilhar entre o cliente e o resto do time.
+  <br />
   <p align="center">
     <img src="fotos/wireframe.png" alt="Wireframe">
   </p>
+
   A partir do design foram criadas as user-stories que podem ser vistas [aqui no github](https://github.com/SQLutions-FATEC/API-3-Semestre?tab=readme-ov-file#-backlogs--user-stories) do projeto, assim sendo durante todo o desenvolvimento do projeto foi-se utilizado as duas documentações apresentadas para guiar a compreensão do que seria desenvolvido nas sprints.
 </details>
 
 <details>
   <summary>Modelagem inicial do banco de dados</summary>
+  <br />
   Juntamente com outros membros do grupo, montamos uma estrutura inicial das tabelas e relacionamentos do banco de dados. A ideia era fazer uma estrutura que nos servisse nos primeiros fluxos mapeados, sem grande visibilidade para o futuro, e montar um dump para esse banco que subia juntamente com o Docker, dessa forma não haveriam tantos conflitos quando precisássemos alterar algum relacionamento, tabela ou construir algo a mais.
-
-<p align="center">
-  <img src="fotos/modelagem.png" alt="Modelagem">
-</p>
+  <br />
+  <p align="center">
+    <img src="fotos/modelagem.png" alt="Modelagem">
+  </p>
 </details>
 
 <details>
   <summary>Desenvolvimento front-end utilizando Vue.js</summary>
+  <br />
   Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
   De modo geral, atuei em todas as telas do projeto, padronizando tanto código como visual e tentando otimizar o fluxo para o usuário final. Participei constantemente de conversas com PO para tirar ideias e melhorias com sugestões do cliente.
   Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end e realizei CRs constantes.
   Foram pontos de atuação:
-
+  
+  <br />
   <details>
     <summary>Definição de bibliotecas ao projeto</summary>
+    <br />
     Seleção estratégica de bibliotecas para garantir desempenho, escalabilidade e eficiência no desenvolvimento do projeto.
+    <br />
     <p align="center">
       <img src="fotos/bibliotecas.png" alt="Bibliotecas">
     </p>
   </details>
+
   <details>
     <summary>Definição de padrão de estilos para identidade visual</summary>
+    <br />
     Estabelecimento de um design system consistente para garantir uma identidade visual coesa e profissional ao projeto.
+    <br />
     <p align="center">
       <img src="fotos/design-system.png" alt="Design-system">
     </p>
   </details>
+
   <details>
     <summary>Dashboard</summary>
+    <br />
     Criação de uma interface visual interativa para exibir dados de forma clara e estratégica, auxiliando na tomada de decisões.
+    <br />
     <p align="center">
       <img src="fotos/dashboard.png" alt="Dashboard">
     </p>
   </details>
+
   <details>
     <summary>CRUD</summary>
+    <br />
     Implementação de operações CRUD (Create, Read, Update, Delete) para facilitar a gestão e manipulação de dados no sistema.
+    <br />
     <p align="center">
       <img src="fotos/crud.png" alt="Crud">
     </p>
@@ -101,32 +118,45 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 
 <details>
   <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
+  <br />
   Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções:
 
+  <br />
   <details>
     <summary>Paginações</summary>
+    <br />
     Implementação de paginação para otimizar a exibição de grandes volumes de dados, garantindo melhor desempenho e usabilidade.
+    <br />
     <p align="center">
       <img src="fotos/paginacao.png" alt="Paginacao">
     </p>
   </details>
+
   <details>
     <summary>Endpoints de listagem</summary>
+    <br />
     Criação de endpoints de listagem para facilitar a recuperação e exibição de dados de forma eficiente e organizada.
+    <br />
     <p align="center">
       <img src="fotos/listagem.png" alt="Listagem">
     </p>
   </details>
+
   <details>
     <summary>Estruturação de dados (DTO)</summary>
+    <br />
     Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
+    <br />
     <p align="center">
       <img src="fotos/dto.png" alt="Dto">
     </p>
   </details>
+
   <details>
     <summary>Ajustes de queries</summary>
+    <br />
     Otimização e correção de queries para melhorar o desempenho e garantir a precisão na manipulação e recuperação de dados.
+    <br />
     <p align="center">
       <img src="fotos/query.png" alt="Query">
     </p>
@@ -134,7 +164,9 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 
   <details>
     <summary>Padronização de código</summary>
+    <br />
     Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
+    <br />
     <p align="center">
       <img src="fotos/padronizacao.png" alt="Padronizacao">
     </p>
