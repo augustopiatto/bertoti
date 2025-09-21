@@ -1,5 +1,5 @@
 package strategy.pattern;
 
-interface PaymentStrategy {
+interface IPaymentStrategy {
     void pay(int amount);
 }

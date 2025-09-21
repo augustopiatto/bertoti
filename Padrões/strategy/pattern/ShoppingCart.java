@@ -1,9 +1,9 @@
 package strategy.pattern;
 
 class ShoppingCart {
-    private PaymentStrategy paymentStrategy;
+    private IPaymentStrategy paymentStrategy;
 
-    public void setPaymentStrategy(PaymentStrategy paymentStrategy) {
+    public void setPaymentStrategy(IPaymentStrategy paymentStrategy) {
         this.paymentStrategy = paymentStrategy;
     }
 
