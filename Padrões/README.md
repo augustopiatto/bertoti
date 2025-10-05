@@ -2,7 +2,6 @@
 
 Este repositório contém exemplos de padrões de projeto (Design Patterns) e seus respectivos anti-patterns. Abaixo, você encontrará um resumo de cada padrão, as diferenças entre o padrão e o anti-pattern correspondente, e diagramas UML para facilitar o entendimento.
 
----
 
 ## 1. Observer
 
@@ -56,3 +55,17 @@ O padrão Strategy define uma família de algoritmos, encapsula cada um deles e 
 #### Anti-pattern
 ![Strategy Anti-pattern UML](./strategy/antipattern/anti_pattern_uml.png)
 ---
+
+# Como rodar
+
+Certifique-se de que tenha o Java instalado (JDK 11 ou superior)
+
+Navegue até a pasta desejada e compile todos o arquivos `.java` do pacote:
+```
+javac *.java
+```
+
+Execute a classe principal (demo), ex:
+```
+java observer.pattern.ObserverPatternDemo
+```
