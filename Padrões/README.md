@@ -4,21 +4,7 @@ Este repositório contém exemplos de padrões de projeto (Design Patterns) e se
 
 ---
 
-## 1. Singleton
-
-### Resumo
-O padrão Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. É útil para gerenciar recursos compartilhados, como conexões de banco de dados ou configurações globais.
-
-### Sobre singleton
-- **Singleton**: Controla o número de instâncias, garantindo que apenas uma seja criada.
-
-### UML
-#### Singleton
-![Singleton UML](./singleton/Singleton-pattern.png)
-
----
-
-## 2. Observer
+## 1. Observer
 
 ### Resumo
 O padrão Observer define uma dependência um-para-muitos entre objetos, de forma que, quando um objeto muda de estado, todos os seus dependentes são notificados automaticamente.
@@ -36,7 +22,7 @@ O padrão Observer define uma dependência um-para-muitos entre objetos, de form
 
 ---
 
-## 3. Composite
+## 2. Composite
 
 ### Resumo
 O padrão Composite permite que objetos sejam organizados em estruturas de árvore para representar hierarquias parte-todo. Ele trata objetos individuais e composições de objetos de maneira uniforme.
@@ -54,7 +40,7 @@ O padrão Composite permite que objetos sejam organizados em estruturas de árvo
 
 ---
 
-## 4. Strategy
+## 3. Strategy
 
 ### Resumo
 O padrão Strategy define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. Ele permite que o algoritmo varie independentemente dos clientes que o utilizam.
