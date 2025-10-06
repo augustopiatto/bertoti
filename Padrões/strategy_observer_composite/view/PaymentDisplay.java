@@ -1,4 +1,6 @@
-package strategy_observer_composite;
+package strategy_observer_composite.view;
+
+import strategy_observer_composite.controller.IPaymentObserver;
 
 public class PaymentDisplay implements IPaymentObserver {
     private String name;

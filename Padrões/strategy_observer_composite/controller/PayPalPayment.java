@@ -1,4 +1,4 @@
-package strategy_observer_composite;
+package strategy_observer_composite.controller;
 
 public class PayPalPayment implements IPaymentStrategy {
     @Override

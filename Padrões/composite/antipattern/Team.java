@@ -6,8 +6,12 @@ import java.util.List;
 public class Team {
     private List<Object> members = new ArrayList<>();
 
-    public void addMember(Object member) {
-        members.add(member);
+    public void addMember(Developer developer) {
+        members.add(developer);
+    }
+
+    public void addMember(Team team) {
+        members.add(team);
     }
 
     public void showMembers() {

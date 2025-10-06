@@ -2,8 +2,10 @@ package strategy.antipattern;
 
 public class StrategyAntiPatternDemo {
     public static void main(String[] args) {
-        ShoppingCart cart = new ShoppingCart();
-        cart.checkout("CreditCard", 100);
-        cart.checkout("PayPal", 200);
+        BaseShoppingCart creditCart = new CreditCardShoppingCart(100);
+        BaseShoppingCart paypalCart = new PayPalShoppingCart(200);
+        
+        creditCart.checkout();
+        paypalCart.checkout();
     }
 }

@@ -1,4 +1,4 @@
-package strategy_observer_composite;
+package strategy_observer_composite.model;
 
 public class Manager implements IEmployee {
     private String name;

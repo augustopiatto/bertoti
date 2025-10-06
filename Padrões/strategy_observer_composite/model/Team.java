@@ -1,4 +1,4 @@
-package strategy_observer_composite;
+package strategy_observer_composite.model;
 
 import java.util.ArrayList;
 import java.util.List;

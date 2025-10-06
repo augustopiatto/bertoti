@@ -1,4 +1,6 @@
-package strategy_observer_composite;
+package strategy_observer_composite.controller;
+
+import strategy_observer_composite.model.IEmployee;
 
 public class PaymentProcessor {
     private IPaymentStrategy paymentStrategy;
