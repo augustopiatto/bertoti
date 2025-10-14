@@ -44,6 +44,9 @@ Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto
 * **Vue.js**: Framework web utilizado para construir o frontend da aplicação.
 
 ### Contribuições Pessoais
+
+Atuei como desenvolvedor full-stack com participação estratégica em todas as fases do projeto. Minhas contribuições iniciaram na concepção da interface e modelagem do banco de dados, evoluindo para o desenvolvimento das funcionalidades front-end e otimizações back-end. Esta visão completa do ecossistema técnico me permitiu entregar soluções coesas e alinhadas com os objetivos do negócio, sempre focando na qualidade do produto final e na eficiência do processo de desenvolvimento.
+
 <details>
   <summary>Desenvolvimento de Wireframe para as sprints</summary>
   <br />
