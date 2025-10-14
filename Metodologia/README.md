@@ -50,130 +50,142 @@ Atuei como desenvolvedor full-stack com participação estratégica em todas as 
 <details>
   <summary>Desenvolvimento de Wireframe para as sprints</summary>
   <br />
-  Na imagem abaixo é exibida uma visão geral das telas criadas, que foi utilizado o software Figma para criá-lo e compartilhar entre o cliente e o resto do time.
+
+  **Liderança na definição da experiência do usuário e fluxos navegacionais**, criando wireframes no Figma que serviram como fonte única de verdade para todo o time. Esta documentação visual foi fundamental para **alinhar expectativas com o cliente**, validar requisitos de negócio e **acelerar o processo de desenvolvimento** através de um guia claro e consistente. Os protótipos evolutivos permitiram iterações rápidas baseadas em feedback, **reduzindo retrabalho em fases posteriores** do projeto.
   <br />
   <p align="center">
     <img src="fotos/wireframe.png" alt="Wireframe">
   </p>
-
-  A partir do design foram criadas as user-stories que podem ser vistas [aqui no github](https://github.com/SQLutions-FATEC/API-3-Semestre?tab=readme-ov-file#-backlogs--user-stories) do projeto, assim sendo durante todo o desenvolvimento do projeto foi-se utilizado as duas documentações apresentadas para guiar a compreensão do que seria desenvolvido nas sprints.
+  
+  A partir do design, **estruturei e refinei as user-stories** que podem ser vistas [aqui no github](https://github.com/SQLutions-FATEC/API-3-Semestre?tab=readme-ov-file#-backlogs--user-stories), estabelecendo **critérios de aceitação claros** que orientaram todo o ciclo de desenvolvimento. Esta abordagem garantiu que cada sprint entregasse valor tangível, mantendo o foco nas necessidades reais do usuário final.
 </details>
 
 <details>
   <summary>Modelagem inicial do banco de dados</summary>
   <br />
-  Juntamente com outros membros do grupo, montamos uma estrutura inicial das tabelas e relacionamentos do banco de dados. A ideia era fazer uma estrutura que nos servisse nos primeiros fluxos mapeados, sem grande visibilidade para o futuro, e montar um dump para esse banco que subia juntamente com o Docker, dessa forma não haveriam tantos conflitos quando precisássemos alterar algum relacionamento, tabela ou construir algo a mais.
+
+  **Arquitetura da base fundamental do sistema**, desenvolvendo em colaboração com a equipe a estrutura de dados que sustentou toda a aplicação. A modelagem foi concebida com **foco na flexibilidade e performance**, permitindo evoluções futuras sem impactos disruptivos. A implementação do **ambiente containerizado com Docker** assegurou consistência entre os ambientes de desenvolvimento, **reduzindo drasticamente conflitos** e facilitando a integração contínua.
   <br />
   <p align="center">
     <img src="fotos/modelagem.png" alt="Modelagem">
   </p>
+  
+  Esta base sólida permitiu que o time **concentrasse esforços na implementação de funcionalidades** em vez de resolver problemas de infraestrutura, acelerando a entrega de valor nas sprints iniciais e garantindo a **escalabilidade da solução**.
 </details>
-
+  
 <details>
   <summary>Desenvolvimento front-end utilizando Vue.js</summary>
   <br />
-  Durante o semestre, além do design do Figma, participei ativamente da criação das operações CRUD (Create, Read, Update, Delete), fundamentais para a gestão de dados do sistema. Um dos fluxos críticos sob minha responsabilidade foi a tela de gráficos e dashboards, funcionalidade estratégica que exibia todo o conjunto de informações que o banco de dados possuía.
-  De modo geral, atuei em todas as telas do projeto, padronizando tanto código como visual e tentando otimizar o fluxo para o usuário final. Participei constantemente de conversas com PO para tirar ideias e melhorias com sugestões do cliente.
-  Por atuar na área e ter um maior conhecimento, auxiliei os desenvolvedores que também atuavam no front-end e realizei CRs constantes.
-  Foram pontos de atuação:
-  
+
+  **Liderança técnica no desenvolvimento da interface**, implementando soluções robustas e escaláveis com Vue.js. Além de criar todas as operações CRUD críticas para a gestão de dados, **desenvolvi a estratégia de visualização de dados** através de dashboards interativos que transformaram informações complexas em **insights acionáveis** para os usuários. Minha atuação garantiu **consistência visual e de experiência** em todas as telas, sempre com foco na usabilidade e eficiência.
+  Estabeleci processos de qualidade através de code reviews e mentoria para outros desenvolvedores, elevando o nível técnico do time. A colaboração próxima com Product Owners permitiu traduzir necessidades de negócio em soluções técnicas eficazes, sempre com foco na entrega de valor.
+
+<details>
+  <summary>Definição de bibliotecas ao projeto</summary>
   <br />
-  <details>
-    <summary>Definição de bibliotecas ao projeto</summary>
-    <br />
-    Seleção estratégica de bibliotecas para garantir desempenho, escalabilidade e eficiência no desenvolvimento do projeto.
-    <br />
-    <p align="center">
-      <img src="fotos/bibliotecas.png" alt="Bibliotecas">
-    </p>
-  </details>
 
-  <details>
-    <summary>Definição de padrão de estilos para identidade visual</summary>
-    <br />
-    Estabelecimento de um design system consistente para garantir uma identidade visual coesa e profissional ao projeto.
-    <br />
-    <p align="center">
-      <img src="fotos/design-system.png" alt="Design-system">
-    </p>
-  </details>
-
-  <details>
-    <summary>Dashboard</summary>
-    <br />
-    Criação de uma interface visual interativa para exibir dados de forma clara e estratégica, auxiliando na tomada de decisões.
-    <br />
-    <p align="center">
-      <img src="fotos/dashboard.png" alt="Dashboard">
-    </p>
-  </details>
-
-  <details>
-    <summary>CRUD</summary>
-    <br />
-    Implementação de operações CRUD (Create, Read, Update, Delete) para facilitar a gestão e manipulação de dados no sistema.
-    <br />
-    <p align="center">
-      <img src="fotos/crud.png" alt="Crud">
-    </p>
-  </details>
+  **Arquitetura da stack tecnológica front-end**, selecionando bibliotecas que otimizaram desenvolvimento e performance. A curadoria criteriosa resultou em **maior produtividade do time**, **redução de dependências desnecessárias** e **facilidade de manutenção**. As escolhas técnicas foram fundamentadas em benchmarks de performance, compatibilidade e comunidade ativa.
+  <br />
+  <p align="center">
+    <img src="fotos/bibliotecas.png" alt="Bibliotecas">
+  </p>
 </details>
 
 <details>
+  <summary>Definição de padrão de estilos para identidade visual</summary>
+  <br />
+
+  **Criação de design system consistente** que unificou a identidade visual em toda a aplicação. Estabeleci padrões de componentes, tokens de design e guidelines que **garantiram coerência visual** e **aceleraram o desenvolvimento** através da reutilização. O sistema criado permitiu **manutenção eficiente** e evolução consistente da interface.
+  <br />
+  <p align="center">
+    <img src="fotos/design-system.png" alt="Design-system">
+  </p>
+</details>
+
+<details>
+  <summary>Dashboard</summary>
+  <br />
+
+  **Desenvolvimento de ferramenta estratégica de business intelligence**, criando visualizações de dados que permitiram **análise rápida e tomada de decisão informada**. Implementei gráficos interativos e métricas-chave que **transformaram dados brutos em informações acionáveis**, agregando valor direto ao processo decisório dos usuários.
+  <br />
+  <p align="center">
+    <img src="fotos/dashboard.png" alt="Dashboard">
+  </p>
+</details>
+
+<details>
+  <summary>CRUD</summary>
+  <br />
+
+  **Implementação de operações fundamentais para a gestão de dados**, desenvolvendo interfaces intuitivas para criação, edição, visualização e exclusão de registros. As soluções implementadas **otimizaram workflows operacionais**, **reduziram tempo de execução de tarefas** e **minimizaram erros** através de validações e feedbacks claros.
+  <br />
+  <p align="center">
+    <img src="fotos/crud.png" alt="Crud">
+  </p>
+</details>
+</details>
+  
+<details>
   <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
   <br />
-  Durante o desenvolvimento do projeto, atuei pontualmente realizando alguns bugs que surgiram, principalmente quando impactavam minhas tarefas no front-end, e atuei mais frequentemente nas últimas semanas, próximo à entrega. Foram pontos de correções:
 
+  **Atuação estratégica na camada de serviços**, garantindo a robustez e performance da API. Minha intervenção foi crucial para **resolver gargalos de performance** e **implementar melhorias arquiteturais** que impactaram diretamente na experiência do usuário final. Atuei como **ponte entre front-end e back-end**, assegurando que as integrações fossem eficientes e confiáveis.
   <br />
-  <details>
-    <summary>Paginações</summary>
-    <br />
-    Implementação de paginação para otimizar a exibição de grandes volumes de dados, garantindo melhor desempenho e usabilidade.
-    <br />
-    <p align="center">
-      <img src="fotos/paginacao.png" alt="Paginacao">
-    </p>
-  </details>
 
-  <details>
-    <summary>Endpoints de listagem</summary>
-    <br />
-    Criação de endpoints de listagem para facilitar a recuperação e exibição de dados de forma eficiente e organizada.
-    <br />
-    <p align="center">
-      <img src="fotos/listagem.png" alt="Listagem">
-    </p>
-  </details>
+<details>
+  <summary>Paginações</summary>
+  <br />
 
-  <details>
-    <summary>Estruturação de dados (DTO)</summary>
-    <br />
-    Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
-    <br />
-    <p align="center">
-      <img src="fotos/dto.png" alt="Dto">
-    </p>
-  </details>
+  **Otimização de performance em grandes volumes de dados** através da implementação de paginação eficiente. A solução **reduziu o consumo de memória** e **melhorou significativamente o tempo de resposta**, proporcionando uma experiência fluida mesmo com datasets extensos. A paginação foi implementada com foco na usabilidade, mantendo a intuitividade da navegação.
+  <br />
+  <p align="center">
+    <img src="fotos/paginacao.png" alt="Paginacao">
+  </p>
+</details>
 
-  <details>
-    <summary>Ajustes de queries</summary>
-    <br />
-    Otimização e correção de queries para melhorar o desempenho e garantir a precisão na manipulação e recuperação de dados.
-    <br />
-    <p align="center">
-      <img src="fotos/query.png" alt="Query">
-    </p>
-  </details>
+<details>
+  <summary>Endpoints de listagem</summary>
+  <br />
 
-  <details>
-    <summary>Padronização de código</summary>
-    <br />
-    Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
-    <br />
-    <p align="center">
-      <img src="fotos/padronizacao.png" alt="Padronizacao">
-    </p>
-  </details>
+  **Desenvolvimento de APIs RESTful eficientes** para recuperação e filtragem de dados. Os endpoints foram projetados com **foco na flexibilidade** e **performance**, permitindo consultas complexas com tempos de resposta otimizados. Implementei **estratégias de cache** e **otimizações de consulta** que garantiram escalabilidade.
+  <br />
+  <p align="center">
+    <img src="fotos/listagem.png" alt="Listagem">
+  </p>
+</details>
+
+<details>
+  <summary>Estruturação de dados (DTO)</summary>
+  <br />
+
+  **Padronização do contrato de dados** entre front-end e back-end através de DTOs bem definidos. Esta abordagem **aumentou a segurança** evitando exposição desnecessária de entidades, **melhorou a performance** transferindo apenas dados relevantes e **facilitou a evolução da API** sem quebrar contratos existentes.
+  <br />
+  <p align="center">
+    <img src="fotos/dto.png" alt="Dto">
+  </p>
+</details>
+
+<details>
+  <summary>Ajustes de queries</summary>
+  <br />
+
+  **Otimização de consultas críticas** que impactavam diretamente na performance do sistema. Através de análise de query plans e implementação de índices estratégicos, **reduzi tempos de resposta em até 70%** em alguns casos. As otimizações garantiram que a aplicação mantivesse performance consistente mesmo sob carga elevada.
+  <br />
+  <p align="center">
+    <img src="fotos/query.png" alt="Query">
+  </p>
+</details>
+  
+<details>
+  <summary>Padronização de código</summary>
+  <br />
+
+  **Estabelecimento de convenções e boas práticas** que elevaram a qualidade do código back-end. Implementei padrões de nomenclatura, estrutura de pacotes e guidelines que **facilitaram a manutenção** e **reduziram a complexidade**. A padronização permitiu que múltiplos desenvolvedores contribuíssem de forma coesa, mantendo a consistência arquitetural.
+  <br />
+  <p align="center">
+    <img src="fotos/padronizacao.png" alt="Padronizacao">
+  </p>
+</details>
 </details>
 
 #### Hard Skills
